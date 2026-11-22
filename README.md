@@ -6,8 +6,8 @@ Exploratory data analysis (EDA) of Superstore retail sales data (`superstore_sal
 
 ```text
 superstore-sales-analysis/
-├── sales analysis.py           # Python analysis script
-├── sales analysis-Copy1.ipynb  # Interactive Jupyter Notebook
+├── superstore_sales_analysis.py           # Python analysis script
+├── superstore_sales_analysis.ipynb  # Interactive Jupyter Notebook
 ├── superstore_sales.xlsx       # Source Excel dataset
 ├── requirements.txt
 ├── LICENSE
@@ -29,7 +29,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> **Note:** Update the `pd.read_excel(...)` path in `sales analysis.py` to `./superstore_sales.xlsx` if running outside the original Windows directory.
+> **Note:** Update the `pd.read_excel(...)` path in `superstore_sales_analysis.py` to `./superstore_sales.xlsx` if running outside the original Windows directory.
 
 ## License
 
